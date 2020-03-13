@@ -1,0 +1,33 @@
+1. 설치
+- node.js
+- npm
+- npx
+
+2. start_React
+리액트js를 하다보면
+어차피 쓰게되는 js에서의 function variable class등 여러개념을 사용하게 됨
+
+
+- setting
+  브라우저가 이 react를 이해하지 못하기 떄문에
+  이 코드를 못생긴 코드로 바꿔줘야함.
+  이걸 설정하는 단계
+  webpack 다운 -> bable 다운 -> react코드를 compile -> 폴더 이동
+
+  2017 이후로 이 단계들을 단축시킬수 있음!!
+  --> create react app을 사용한다면!!!!
+
+
+- react 실행
+  #npm start
+  
+  
+  
+- React란
+  React는 거기에 쓰는 모든 요소를 생성한다는 것. 자바스크립트와 함께 그것을 만들고 그것들을 HTML로 밀어 넣음
+  (무슨소린지 잘 이해가 안됨.)
+
+  모든 application을 root 안에 집어넣는것(이라고 생각해도 될까)
+  
+  
+- virtual DOM (virtual document object model)
