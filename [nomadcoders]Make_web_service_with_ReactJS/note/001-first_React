@@ -20,6 +20,7 @@
 
 - react 실행
   #npm start
+  시작한 console을 종료하지 않으면 계속 실행됨
   
   
   
@@ -31,3 +32,83 @@
   
   
 - virtual DOM (virtual document object model)
+
+
+- React는 모든 component와 함께 동작함
+   앞으로 react를 하면서 component를 만들게 될것임
+   
+- Component?
+  HTML을 반환하는 함수
+  
+  <Component 선언>
+	function App() {
+	  return 
+	  <div>
+		Hello!!!!!!
+		</div>;
+	}
+
+  <Component 실행>
+	ReactDOM.render(<App />, document.getElementById("root"));
+
+  react는 component를 사용해서 HTML처럶 작성하려는 경우에 필요
+  javascript와 HTML 사이의 조합을 jsx라고 부름 => react에 특화된 개념중 하나
+  
+  react는 하나의 Component만 rendering 한다!(중요)
+  
+  component는 대문자로 시작해야함
+
+
+- react는 Component를 가져와서 Browser가 이해할 수 있는 평범한 Html
+
+
+- prop.arg = {arg}
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
